@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1A1A1A;
+}
+
+h1,
+h2,
+h3,
+ul,
+li,
+a,
+span,
+img {
+  display: block;
+  max-width: 100%;
+  text-decoration: none;
+  list-style: none;
+}
+
+body, input, button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+  outline: none;
+  border: 0;
+  transition: 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #2a5e7c;
+}
+
+input::placeholder {
+  color: #808080;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #808080 !important;
+}
