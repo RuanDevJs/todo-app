@@ -1,9 +1,9 @@
 import Logo from "../../assets/Logo.svg";
-import * as Styled from "./styles.ts"
+import * as Styled from "./styles.ts";
 
 export default function Header() {
   return (
-    <Styled.Header>
+    <Styled.Header data-cy="header">
       <Styled.Container>
         <Styled.Logo
           src={Logo}
@@ -13,5 +13,5 @@ export default function Header() {
         />
       </Styled.Container>
     </Styled.Header>
-  )
+  );
 }
